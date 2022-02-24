@@ -32,10 +32,10 @@ function App() {
         <Router>
           <div className="container">  
           <Routes>
-          <Route path="/about" element={<AboutMe/>}/>
-          <Route path="/resume" element={<MyResume/>}/>
-          <Route path="/portfolio" element={<MyPortfolio/>}/>
-          <Route path="/contacts" element={<MyContacts/>}/>
+          <Route path="/JC-React-Portfolio/about" element={<AboutMe/>}/>
+          <Route path="/JC-React-Portfolio/resume" element={<MyResume/>}/>
+          <Route path="/JC-React-Portfolio/portfolio" element={<MyPortfolio/>}/>
+          <Route path="/JC-React-Portfolio/contacts" element={<MyContacts/>}/>
           
           </Routes>
           </div>  
